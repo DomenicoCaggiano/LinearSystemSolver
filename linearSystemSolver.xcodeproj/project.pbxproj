@@ -3,27 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C19923625EE354F002EC944 /* systemChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C19923525EE354F002EC944 /* systemChooserViewController.swift */; };
+		6C19923A25EE4FE0002EC944 /* Gauss2x2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C19923925EE4FE0002EC944 /* Gauss2x2ViewController.swift */; };
+		6C19923D25EE5057002EC944 /* Cramer2x2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C19923C25EE5057002EC944 /* Cramer2x2ViewController.swift */; };
+		6C19924025EE50A4002EC944 /* Cramer3x3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C19923F25EE50A4002EC944 /* Cramer3x3ViewController.swift */; };
 		6C6B577B25E9009000EF7650 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6B577A25E9009000EF7650 /* AppDelegate.swift */; };
 		6C6B577D25E9009000EF7650 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6B577C25E9009000EF7650 /* SceneDelegate.swift */; };
-		6C6B577F25E9009000EF7650 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6B577E25E9009000EF7650 /* ViewController.swift */; };
 		6C6B578225E9009000EF7650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C6B578025E9009000EF7650 /* Main.storyboard */; };
 		6C6B578425E9009200EF7650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C6B578325E9009200EF7650 /* Assets.xcassets */; };
 		6C6B578725E9009200EF7650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C6B578525E9009200EF7650 /* LaunchScreen.storyboard */; };
+		6C6B579125E903C000EF7650 /* LANumerics in Frameworks */ = {isa = PBXBuildFile; productRef = 6C6B579025E903C000EF7650 /* LANumerics */; };
+		6C6B579425E903FB00EF7650 /* linearSystemSolverModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6B579325E903FB00EF7650 /* linearSystemSolverModel.swift */; };
+		6C8A886C25F0D05200FE2648 /* Cramer2x2InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A886B25F0D05200FE2648 /* Cramer2x2InfoViewController.swift */; };
+		6C8A886F25F0DB3600FE2648 /* Gauss3x3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A886E25F0DB3600FE2648 /* Gauss3x3ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C19923525EE354F002EC944 /* systemChooserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = systemChooserViewController.swift; sourceTree = "<group>"; };
+		6C19923925EE4FE0002EC944 /* Gauss2x2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gauss2x2ViewController.swift; sourceTree = "<group>"; };
+		6C19923C25EE5057002EC944 /* Cramer2x2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cramer2x2ViewController.swift; sourceTree = "<group>"; };
+		6C19923F25EE50A4002EC944 /* Cramer3x3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cramer3x3ViewController.swift; sourceTree = "<group>"; };
 		6C6B577725E9009000EF7650 /* linearSystemSolver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = linearSystemSolver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C6B577A25E9009000EF7650 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C6B577C25E9009000EF7650 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6C6B577E25E9009000EF7650 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6C6B578125E9009000EF7650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C6B578325E9009200EF7650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C6B578625E9009200EF7650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C6B578825E9009200EF7650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C6B579325E903FB00EF7650 /* linearSystemSolverModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linearSystemSolverModel.swift; sourceTree = "<group>"; };
+		6C8A886B25F0D05200FE2648 /* Cramer2x2InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cramer2x2InfoViewController.swift; sourceTree = "<group>"; };
+		6C8A886E25F0DB3600FE2648 /* Gauss3x3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gauss3x3ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C6B579125E903C000EF7650 /* LANumerics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,10 +72,16 @@
 			children = (
 				6C6B577A25E9009000EF7650 /* AppDelegate.swift */,
 				6C6B577C25E9009000EF7650 /* SceneDelegate.swift */,
-				6C6B577E25E9009000EF7650 /* ViewController.swift */,
+				6C19923525EE354F002EC944 /* systemChooserViewController.swift */,
+				6C19923925EE4FE0002EC944 /* Gauss2x2ViewController.swift */,
+				6C8A886E25F0DB3600FE2648 /* Gauss3x3ViewController.swift */,
+				6C19923C25EE5057002EC944 /* Cramer2x2ViewController.swift */,
+				6C19923F25EE50A4002EC944 /* Cramer3x3ViewController.swift */,
+				6C8A886B25F0D05200FE2648 /* Cramer2x2InfoViewController.swift */,
 				6C6B578025E9009000EF7650 /* Main.storyboard */,
 				6C6B578325E9009200EF7650 /* Assets.xcassets */,
 				6C6B578525E9009200EF7650 /* LaunchScreen.storyboard */,
+				6C6B579325E903FB00EF7650 /* linearSystemSolverModel.swift */,
 				6C6B578825E9009200EF7650 /* Info.plist */,
 			);
 			path = linearSystemSolver;
@@ -83,6 +103,9 @@
 			dependencies = (
 			);
 			name = linearSystemSolver;
+			packageProductDependencies = (
+				6C6B579025E903C000EF7650 /* LANumerics */,
+			);
 			productName = linearSystemSolver;
 			productReference = 6C6B577725E9009000EF7650 /* linearSystemSolver.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +133,9 @@
 				Base,
 			);
 			mainGroup = 6C6B576E25E9009000EF7650;
+			packageReferences = (
+				6C6B578F25E903C000EF7650 /* XCRemoteSwiftPackageReference "LANumerics" */,
+			);
 			productRefGroup = 6C6B577825E9009000EF7650 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,9 +163,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C6B577F25E9009000EF7650 /* ViewController.swift in Sources */,
+				6C6B579425E903FB00EF7650 /* linearSystemSolverModel.swift in Sources */,
+				6C19923D25EE5057002EC944 /* Cramer2x2ViewController.swift in Sources */,
 				6C6B577B25E9009000EF7650 /* AppDelegate.swift in Sources */,
+				6C19923A25EE4FE0002EC944 /* Gauss2x2ViewController.swift in Sources */,
+				6C19923625EE354F002EC944 /* systemChooserViewController.swift in Sources */,
 				6C6B577D25E9009000EF7650 /* SceneDelegate.swift in Sources */,
+				6C19924025EE50A4002EC944 /* Cramer3x3ViewController.swift in Sources */,
+				6C8A886C25F0D05200FE2648 /* Cramer2x2InfoViewController.swift in Sources */,
+				6C8A886F25F0DB3600FE2648 /* Gauss3x3ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +373,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6C6B578F25E903C000EF7650 /* XCRemoteSwiftPackageReference "LANumerics" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/phlegmaticprogrammer/LANumerics.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.11;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6C6B579025E903C000EF7650 /* LANumerics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6C6B578F25E903C000EF7650 /* XCRemoteSwiftPackageReference "LANumerics" */;
+			productName = LANumerics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6C6B576F25E9009000EF7650 /* Project object */;
 }
